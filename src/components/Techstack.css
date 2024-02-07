@@ -1,0 +1,17 @@
+/*TechstackCss*/
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .icon {
+    font-size: 2.5rem; /* Adjust the size of the icons as needed */
+    margin: 10px; /* Add space between icons */
+  }
+  
+  @media (max-width: 768px) {
+    .icon {
+      font-size: 2rem; /* Decrease icon size on smaller screens */
+    }
+  }
