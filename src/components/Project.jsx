@@ -1,5 +1,5 @@
 import React from 'react';
-import './Project.css'; // Import your CSS file
+import './Project.css'; 
 import TaskMaster from './TaskMaster.jpg'
 
 const Project = () => {
@@ -27,7 +27,7 @@ const Project = () => {
     },
     
    
-    // Add more project objects as needed
+    
   ];
 
   return (

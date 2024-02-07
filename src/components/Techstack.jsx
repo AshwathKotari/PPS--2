@@ -3,7 +3,7 @@ import { FaHtml5, FaCss3, FaReact, FaNodeJs, FaGithub, FaFigma } from 'react-ico
 import { IoLogoJavascript } from 'react-icons/io';
 import { DiMongodb } from 'react-icons/di';
 import { SiTailwindcss } from 'react-icons/si';
-import './Techstack.css'; // Import your CSS file
+import './Techstack.css'; 
 
 export const Techstack = () => {
   return (

@@ -190,7 +190,7 @@
 
 
 .social-link {
-  color: inherit; /* Inherits the color from the parent element */
+  color: inherit; 
   text-decoration: none; /* Removes underline */
   margin-right: 10px;
 }
