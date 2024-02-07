@@ -7,21 +7,21 @@ const Project = () => {
     {
       title: 'Task Master',
       description: 'Helps people to finish tasks and stores data in local storage',
-      imageUrl: '',
+      //imageUrl: '',
       githubUrl: 'https://github.com/AshwathKotari/TaskManager',
       liveUrl: 'https://main--taskmasterreactapp.netlify.app/'
     },
     {
       title: 'MovieSearchApp',
       description: 'Helps people to get details of movies',
-      imageUrl: '',
+      //imageUrl: '',
       githubUrl: 'https://github.com/AshwathKotari/MovieSearchApp',
       liveUrl: 'https://moviesearchreactappashwath.netlify.app/'
     },
     {
       title: 'CBT Companion',
       description: 'Helps people to improve their Mental Health',
-      imageUrl: '',
+      //imageUrl: '',
       githubUrl: 'https://github.com/AshwathKotari/CBT-RR',
       liveUrl: 'https://cbtrr.netlify.app/'
     },
