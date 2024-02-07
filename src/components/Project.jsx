@@ -12,26 +12,20 @@ const Project = () => {
       liveUrl: 'https://main--taskmasterreactapp.netlify.app/'
     },
     {
-      title: 'Task Master',
-      description: 'Helps people to finish tasks and stores data in local storage',
+      title: 'MovieSearchApp',
+      description: 'Helps people to get details of movies',
       imageUrl: '',
-      githubUrl: 'https://github.com/AshwathKotari/TaskManager',
-      liveUrl: 'https://main--taskmasterreactapp.netlify.app/'
+      githubUrl: 'https://github.com/AshwathKotari/MovieSearchApp',
+      liveUrl: 'https://moviesearchreactappashwath.netlify.app/'
     },
     {
-      title: 'Task Master',
-      description: 'Helps people to finish tasks and stores data in local storage',
+      title: 'CBT Companion',
+      description: 'Helps people to improve their Mental Health',
       imageUrl: '',
-      githubUrl: 'https://github.com/AshwathKotari/TaskManager',
-      liveUrl: 'https://main--taskmasterreactapp.netlify.app/'
+      githubUrl: 'https://github.com/AshwathKotari/CBT-RR',
+      liveUrl: 'https://cbtrr.netlify.app/'
     },
-    {
-      title: 'Task Master',
-      description: 'Helps people to finish tasks and stores data in local storage',
-      imageUrl: '',
-      githubUrl: 'https://github.com/AshwathKotari/TaskManager',
-      liveUrl: 'https://main--taskmasterreactapp.netlify.app/'
-    }
+    
    
     // Add more project objects as needed
   ];
