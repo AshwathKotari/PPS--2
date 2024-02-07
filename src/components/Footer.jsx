@@ -10,7 +10,7 @@ export const Footer = () => {
       <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="social-link">
         <FaTwitter />
       </a>
-      <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="social-link">
+      <a href="https://github.com/AshwathKotari" target="_blank" rel="noopener noreferrer" className="social-link">
         <FaGithub />
       </a>
       <a href=''  target="_blank" rel="noopener noreferrer" className="social-link"> <FaLinkedin/></a>
