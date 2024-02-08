@@ -5,13 +5,13 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  
+  background-color:#4b4631;
   padding: 0px;
 }
   
   /* Header styles */
   header {
-    background-color: #333;
+    //background-color: #333;
     color: #fff;
     padding: 0px;
     text-align: center;
@@ -22,7 +22,7 @@
   .container {
     display: flex;
     flex: 1;
-    background-color: lightskyblue;
+    
   }
   
   /* Navbar styles */
@@ -253,3 +253,42 @@
 }
 
 /* Add animation delays for subsequent paragraphs as needed */
+
+
+
+
+/* Home.css */
+
+.Home-css {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Center content horizontally */
+  padding: 20px;
+}
+
+.styled-div {
+  margin-bottom: 20px; /* Add spacing between the styled div and the image */
+  text-align: center; /* Center text */
+}
+
+.circle-image {
+  width: 200px; /* Set initial width for the image */
+  height: 200px; /* Set initial height for the image */
+  border-radius: 50%; /* Make the image circular */
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .circle-image {
+    width: 150px; /* Reduce width for smaller screens */
+    height: 150px; /* Reduce height for smaller screens */
+  }
+}
+
+/* Media query for extra small screens */
+@media (max-width: 480px) {
+  .circle-image {
+    width: 100px; /* Further reduce width for extra small screens */
+    height: 100px; /* Further reduce height for extra small screens */
+  }
+}
