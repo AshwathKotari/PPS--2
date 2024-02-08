@@ -9,7 +9,7 @@ export const Home = () => {
 
       
       < div className='styled-div'>
-        <p>Hi,Welcome!</p>
+        <p>Welcome!</p>
         <p>I am Ashwath Kotari.</p>
         <p>Web Developer.</p>
       </div>
