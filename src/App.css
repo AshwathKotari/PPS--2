@@ -7,11 +7,12 @@
   min-height: 100vh;
   background-color:#4b4631;
   padding: 0px;
+  color: #fff;
 }
   
   /* Header styles */
   header {
-    //background-color: #333;
+    background-color: #333;
     color: #fff;
     padding: 0px;
     text-align: center;
@@ -292,3 +293,7 @@
     height: 100px; /* Further reduce height for extra small screens */
   }
 }
+
+
+
+
