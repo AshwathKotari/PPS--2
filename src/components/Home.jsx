@@ -1,5 +1,6 @@
 import React from 'react'
 import Ashwath from './Ashwath.jpg'
+import './Home.css'
 
 
 export const Home = () => {

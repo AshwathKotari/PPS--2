@@ -10,15 +10,18 @@ import { Contact } from './components/Contact';
 import './App.css';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
+import DisableZoom from './components/DisableZoom';
 
 function App() {
   return (
     <div className="body">
+      <DisableZoom />
       <header>
         <Header/>
       </header>
       <div className='container'>
-          <Navbar className='navbar' /> 
+       <Navbar/>
+          
           <main className='routes'>
         
             <Routes>

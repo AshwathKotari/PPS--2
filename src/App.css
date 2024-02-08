@@ -1,5 +1,7 @@
 /* App.css */
 
+
+
 /* Body styles */
 .body {
   display: flex;
@@ -8,6 +10,12 @@
   background-color:#4b4631;
   padding: 0px;
   color: #fff;
+ zoom: 100%;
+ margin: 0px !important ;
+
+}
+:root {
+  margin: 0px !important ;
 }
   
   /* Header styles */
@@ -40,28 +48,12 @@
   
   /* Routes styles */
   .routes {
-    width: 70%;
-    padding: 10px;
-    margin-left: 15px;
+    
+    padding: 20px;
+    margin-left: 4px;
   }
   
-  /* Navigation links styles */
-  .links {
-    display: flex;
-    flex-direction: column;
-    list-style-type: none;
-    padding: 10px;
-  }
   
-  .links a {
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 0px;
-  }
-  
-  .links a:hover {
-    background-color: #6a5d48;
-  }
   
   /* Footer styles */
   footer {
@@ -82,7 +74,7 @@
     }
     
     .routes {
-      width: 75%;
+      width: 100%;
     }
   }
 
@@ -110,194 +102,28 @@
 
 
 
-  /* CSS to style the circular image with animation effect */
-  .circle-image {
-    border-radius: 50%; /* Makes the image round */
-    width: 300px; /* Adjust the width as needed */
-    height: 300px; /* Adjust the height as needed */
-    object-fit: cover; /* Ensures the image fills the circle without stretching */
-    animation: moveUpDown 3s infinite alternate; /* Apply animation named moveUpDown, with 3s duration, infinite iteration, and alternate direction */
-    margin-top: 70px;
-    transition: box-shadow 0.3s ease; /* Add transition effect for box-shadow */
-  
-  }
-  /* Add box-shadow effect on hover */
-  .circle-image:hover {
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2); /* Add box-shadow effect on hover */
-  }
-  
-  /* CSS to define the animation keyframes */
-  @keyframes moveUpDown {
-    0% {
-      transform: translateY(0); /* Initial position */
-    }
-    100% {
-      transform: translateY(-20px); /* Final position, moves the image up by 20px */
-    }
-  }
-  
-  
-  
-  
-  
-  
-  
-  .Home-css{
-    display: flex;
-    justify-content: space-around;
-  
-  }
-  .styled-div{
-    justify-content: center;
-    
-    
-  
-  }
-  
-  .styled-div {
-    font-family: Arial, sans-serif;
-    font-size: 2vw; /* Adjust font size in vw units for responsiveness */
-    color: #fff;
-    
-    transition: all 0.3s ease;
-    text-align: center;
-    max-width: 20vw; /* Adjust max-width in vw units for responsiveness */
-    margin: 5vw auto; /* Adjust margin in vw units for responsiveness */
-  }
-  
-  .styled-div:hover {
-    transform: translateY(-1vw); /* Adjust hover effect for responsiveness */
-    //box-shadow: 0 3vw 5vw rgba(0, 0, 0, 0.2); /* Adjust box-shadow on hover for responsiveness */
-    //background-color: #2980b9;
-  }
-  
-  
-  /* Media query for smaller screens */
-  @media screen and (max-width: 768px) {
-    .circle-image {
-      width: 50vw;
-      height: 50vw;
-    }
-  
-    .styled-div {
-      font-size: 5vw;
-      padding: 4vw;
-      border-radius: 4vw;
-      box-shadow: 0 3vw 5vw rgba(0, 0, 0, 0.1);
-      margin: 8vw auto;
-    }
-  
-    .styled-div:hover {
-      transform: translateY(-2vw);
-      box-shadow: 0 5vw 8vw rgba(0, 0, 0, 0.2);
-    }
-  }
-  
-
-
-
-
-
-
-  /* AddStyling.css */
-
-.styled-div {
-  opacity: 0; /* Initially hide the component */
-  justify-content: center;
-  text-align: center;
-  margin: auto;
-  margin-top: 70px;
-  
- // background-color: #f8f9fa; /* Light gray background */
-  //border-radius: 8px;
-  //box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  animation: fadeIn 0.5s ease forwards; /* Apply fadeIn animation */
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-20px); /* Start position */
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0); /* End position */
-  }
-}
-
-.styled-div p {
-  margin: 10px 0;
-  opacity: 0; /* Initially hide each paragraph */
-  animation: fadeInParagraph 0.5s ease forwards; /* Apply fadeInParagraph animation */
-}
-
-@keyframes fadeInParagraph {
-  from {
-    opacity: 0;
-    transform: translateY(-10px); /* Start position */
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0); /* End position */
-  }
-}
-
-/* Add animation delays for subsequent paragraphs as needed */
-.styled-div p:nth-child(1) {
-  animation-delay: 1s; /* Delay animation for the first paragraph */
-  margin: 20px;
-}
-
-.styled-div p:nth-child(2) {
-  animation-delay: 2.5s; /* Delay animation for the second paragraph */
-  margin: 20px;
-}
-
-.styled-div p:nth-child(3) {
-  animation-delay: 4s; /* Delay animation for the third paragraph */
-  margin: 20px;
-}
-
-/* Add animation delays for subsequent paragraphs as needed */
-
-
-
-
-/* Home.css */
-
-.Home-css {
+/* Base styles for container */
+.container {
   display: flex;
   flex-direction: row;
-  align-items: center; /* Center content horizontally */
-  padding: 20px;
+  height: 100vh; /* Set container height to 100% of viewport height */
 }
 
-.styled-div {
-  margin-bottom: 20px; /* Add spacing between the styled div and the image */
-  text-align: center; /* Center text */
-}
 
-.circle-image {
-  width: 200px; /* Set initial width for the image */
-  height: 200px; /* Set initial height for the image */
-  border-radius: 50%; /* Make the image circular */
-}
 
-/* Media query for small screens */
-@media (max-width: 768px) {
-  .circle-image {
-    width: 150px; /* Reduce width for smaller screens */
-    height: 150px; /* Reduce height for smaller screens */
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .container {
+      padding: 10px; /* Add padding for smaller screens */
+      flex-direction: column;
   }
 }
 
-/* Media query for extra small screens */
-@media (max-width: 576px) {
-  .circle-image {
-    width: 100px; /* Further reduce width for extra small screens */
-    height: 100px; /* Further reduce height for extra small screens */
-  }
-}
+
+
+
+
+
 
 
 

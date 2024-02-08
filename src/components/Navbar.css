@@ -1,65 +1,50 @@
-/* AddStyling.css */
-
+/* Base styles for links */
 .links {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 20px;
+    border-radius: 10px;
     opacity: 0;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 2px solid black;
-    
-    
     animation: fadeIn 10s ease forwards;
-  }
-  
-  @keyframes fadeIn {
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.links a:hover {
+    background-color: #6a5d48;
+}
+
+/* Keyframe animation for fading in */
+@keyframes fadeIn {
     from {
-      opacity: 0;
-      transform: translateY(-20px);
+        opacity: 0;
+        transform: translateY(-20px);
     }
     to {
-      opacity: 1;
-      transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
-  }
-  
-  .links p {
-    margin: 10px 0;
-    opacity: 0;
-    animation: fadeInParagraph 0.5s ease forwards;
-  }
-  
-  @keyframes fadeInParagraph {
-    from {
-      opacity: 0;
-      transform: translateY(-10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  /* Add animation delays for subsequent paragraphs as needed */
-  .links p:nth-child(1) {
-    animation-delay: 0.5s;
-  }
-  
-  .links p:nth-child(2) {
-    animation-delay: 1s;
-  }
-  
-  .links p:nth-child(3) {
-    animation-delay: 1.5s;
-  }
-  
-  /* Media query for small screens */
-  @media (max-width: 576px) {
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
     .links {
-      margin: 10px;
-      padding: 15px;
+        flex-direction: coloumn; /* Change direction to horizontal */
+        justify-content: space-around; /* Align items evenly */
+        padding: 10px; /* Reduce padding for smaller screens */
     }
-  
-    .links p {
-      margin: 8px 0;
+
+    .links a {
+        padding: 5px 10px; /* Adjust padding for smaller links */
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
-  }
-  
+}

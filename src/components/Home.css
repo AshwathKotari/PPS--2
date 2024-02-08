@@ -1,0 +1,46 @@
+.Home-css {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
+    justify-content: space-around;
+}
+
+.styled-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    margin: auto;
+
+}
+
+.circle-image {
+    margin: auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    animation: moveUpDown 3s ease infinite;
+    
+}
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0); /* Start position */
+    }
+    50% {
+        transform: translateY(-20px); /* Middle position, move up */
+    }
+    100% {
+        transform: translateY(0); /* End position, move down */
+    }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .Home-css {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center; /* Center items vertically */
+    }
+
+    .circle-image {
+        width: 50%; /* Adjust width for smaller screens */
+        height: auto; /* Let height adjust proportionally */
+    }
+}

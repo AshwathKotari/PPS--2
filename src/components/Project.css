@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 30px;
+  background-color: #4b4631;
 }
 
 .project {
@@ -40,4 +41,15 @@
 
 .project a:hover {
   text-decoration: underline;
+}
+
+
+@media screen and (max-width: 768px) {
+  .project-list {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .project {
+    padding: 15px;
+  }
 }
