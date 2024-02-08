@@ -13,6 +13,7 @@
 }
 
 .circle-image {
+    padding: 40px;
     margin: auto;
     border-radius: 50%;
     width: 200px;
