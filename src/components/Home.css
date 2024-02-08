@@ -39,7 +39,7 @@
         flex-direction: column; /* Stack items vertically on smaller screens */
         align-items: center; /* Center items vertically */
     }
-
+    
     .circle-image {
         width: 50%; /* Adjust width for smaller screens */
         height: auto; /* Let height adjust proportionally */
