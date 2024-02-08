@@ -13,7 +13,7 @@ export const Footer = () => {
       <a href="https://github.com/AshwathKotari" target="_blank" rel="noopener noreferrer" className="social-link">
         <FaGithub />
       </a>
-      <a href=''  target="_blank" rel="noopener noreferrer" className="social-link"> <FaLinkedin/></a>
+      <a href='https://www.linkedin.com/in/ashwath-kotari-21940b177/'  target="_blank" rel="noopener noreferrer" className="social-link"> <FaLinkedin/></a>
     </div>
   );
 };

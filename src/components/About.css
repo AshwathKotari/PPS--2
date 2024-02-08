@@ -1,0 +1,69 @@
+.About-div{
+    justify-content: center;
+    text-align: center;
+  }
+
+ /* About.css */
+
+.About-div {
+    opacity: 0; /* Initially hide the component */
+    margin: 20px;
+    padding: 20px;
+    //background-color: #f8f9fa; /* Light gray background */
+    border-radius: 8px;
+    //box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease forwards; /* Apply fadeIn animation */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px); /* Start position */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* End position */
+    }
+  }
+  
+  .About-div p {
+    margin: 10px 0;
+    opacity: 0; /* Initially hide each paragraph */
+    animation: fadeInParagraph 0.5s ease forwards; /* Apply fadeInParagraph animation */
+  }
+  
+  @keyframes fadeInParagraph {
+    from {
+      opacity: 0;
+      transform: translateY(-10px); /* Start position */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0); /* End position */
+    }
+  }
+  
+  .About-div p:nth-child(1) {
+    animation-delay: 0.5s; /* Delay animation for the first paragraph */
+  }
+  
+  .About-div p:nth-child(2) {
+    animation-delay: 2.5s; /* Delay animation for the second paragraph */
+  }
+  
+  .About-div p:nth-child(3) {
+    animation-delay: 5.5s; /* Delay animation for the third paragraph */
+  }
+  .About-div p:nth-child(4) {
+    animation-delay: 8.5s; /* Delay animation for the first paragraph */
+  }
+  
+  .About-div p:nth-child(5) {
+    animation-delay: 11.5s; /* Delay animation for the second paragraph */
+  }
+  
+  .About-div p:nth-child(6) {
+    animation-delay: 1.5s; /* Delay animation for the third paragraph */
+  }
+  /* Add animation delays for subsequent paragraphs as needed */
+  

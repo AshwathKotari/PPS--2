@@ -15,3 +15,83 @@
       font-size: 2rem; 
     }
   }
+
+  /* Techstack.css */
+
+.tech-stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Initially hide the component */
+  margin: 20px;
+  padding: 20px;
+  //background-color: #f8f9fa; /* Light gray background */
+  border-radius: 8px;
+  //box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease forwards; /* Apply fadeIn animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px); /* Start position */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* End position */
+  }
+}
+
+.icon {
+  font-size: 2rem;
+  margin: 0 10px;
+  opacity: 0; /* Initially hide each icon */
+  animation: fadeInIcon 0.5s ease forwards; /* Apply fadeInIcon animation */
+}
+
+@keyframes fadeInIcon {
+  from {
+    opacity: 0;
+    transform: translateY(-10px); /* Start position */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* End position */
+  }
+}
+
+/* Add animation delays for subsequent icons as needed */
+.icon:nth-child(1) {
+  animation-delay: 0.5s; /* Delay animation for the first icon */
+}
+
+.icon:nth-child(2) {
+  animation-delay: 1.5s; /* Delay animation for the second icon */
+}
+.icon:nth-child(3) {
+  animation-delay: 2.5s; /* Delay animation for the first icon */
+}
+
+.icon:nth-child(4) {
+  animation-delay: 3.5s; /* Delay animation for the second icon */
+}
+.icon:nth-child(5) {
+  animation-delay: 4.5s; /* Delay animation for the first icon */
+}
+
+.icon:nth-child(6) {
+  animation-delay: 5.5s; /* Delay animation for the second icon */
+}
+.icon:nth-child(7) {
+  animation-delay: 6.5s; /* Delay animation for the first icon */
+}
+
+.icon:nth-child(8) {
+  animation-delay: 7.5s; /* Delay animation for the second icon */
+}
+.icon:nth-child(9) {
+  animation-delay: 8.5s; /* Delay animation for the second icon */
+}
+
+
+/* Add animation delays for subsequent icons as needed */
