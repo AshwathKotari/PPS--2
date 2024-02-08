@@ -7,7 +7,7 @@
     border-radius: 2px solid black;
     
     
-    animation: fadeIn 0.5s ease forwards;
+    animation: fadeIn 10s ease forwards;
   }
   
   @keyframes fadeIn {
