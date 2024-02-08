@@ -46,26 +46,32 @@
   
   .Softskills-div p:nth-child(1) {
     animation-delay: 1s; /* Delay animation for the first paragraph */
+    margin: 20px;
   }
   
   .Softskills-div p:nth-child(2) {
     animation-delay: 3s; /* Delay animation for the second paragraph */
+    margin: 20px;
   }
   
   .Softskills-div p:nth-child(3) {
     animation-delay: 6s; /* Delay animation for the third paragraph */
+    margin: 20px;
   }
   
   .Softskills-div p:nth-child(4) {
     animation-delay: 9s; /* Delay animation for the first paragraph */
+    margin: 20px;
   }
   
   .Softskills-div p:nth-child(5) {
     animation-delay: 12s; /* Delay animation for the second paragraph */
+    margin: 20px;
   }
   
   .Softskills-div p:nth-child(6) {
     animation-delay: 14s; /* Delay animation for the third paragraph */
+    margin: 20px;
   }
   /* Add animation delays for subsequent paragraphs as needed */
   

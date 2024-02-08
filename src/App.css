@@ -101,7 +101,7 @@
 .social-link {
   color: inherit; 
   text-decoration: none; /* Removes underline */
-  margin-right: 10px;
+  margin-right: 15px;
 }
 
 
@@ -117,7 +117,7 @@
     height: 300px; /* Adjust the height as needed */
     object-fit: cover; /* Ensures the image fills the circle without stretching */
     animation: moveUpDown 3s infinite alternate; /* Apply animation named moveUpDown, with 3s duration, infinite iteration, and alternate direction */
-    margin-top: 40px;
+    margin-top: 70px;
     transition: box-shadow 0.3s ease; /* Add transition effect for box-shadow */
   
   }
@@ -206,6 +206,7 @@
   justify-content: center;
   text-align: center;
   margin: auto;
+  margin-top: 70px;
   
  // background-color: #f8f9fa; /* Light gray background */
   //border-radius: 8px;
@@ -244,14 +245,17 @@
 /* Add animation delays for subsequent paragraphs as needed */
 .styled-div p:nth-child(1) {
   animation-delay: 1s; /* Delay animation for the first paragraph */
+  margin: 20px;
 }
 
 .styled-div p:nth-child(2) {
   animation-delay: 2.5s; /* Delay animation for the second paragraph */
+  margin: 20px;
 }
 
 .styled-div p:nth-child(3) {
   animation-delay: 4s; /* Delay animation for the third paragraph */
+  margin: 20px;
 }
 
 /* Add animation delays for subsequent paragraphs as needed */

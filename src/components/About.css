@@ -1,6 +1,7 @@
 .About-div{
     justify-content: center;
     text-align: center;
+    text-size-adjust: ;
   }
 
  /* About.css */
@@ -44,22 +45,27 @@
   }
   
   .About-div p:nth-child(1) {
-    animation-delay: 0.5s; /* Delay animation for the first paragraph */
+    animation-delay: 0.5s; 
+    margin: 20px;/* Delay animation for the first paragraph */
   }
   
   .About-div p:nth-child(2) {
-    animation-delay: 2.5s; /* Delay animation for the second paragraph */
+    animation-delay: 2.5s; 
+    margin: 20px;/* Delay animation for the second paragraph */
   }
   
   .About-div p:nth-child(3) {
     animation-delay: 5.5s; /* Delay animation for the third paragraph */
+    margin: 20px;
   }
   .About-div p:nth-child(4) {
     animation-delay: 8.5s; /* Delay animation for the first paragraph */
+    margin: 20px;
   }
   
   .About-div p:nth-child(5) {
     animation-delay: 11.5s; /* Delay animation for the second paragraph */
+    margin: 20px;
   }
   
   .About-div p:nth-child(6) {
