@@ -288,7 +288,7 @@
 }
 
 /* Media query for extra small screens */
-@media (max-width: 480px) {
+@media (max-width: 576px) {
   .circle-image {
     width: 100px; /* Further reduce width for extra small screens */
     height: 100px; /* Further reduce height for extra small screens */
