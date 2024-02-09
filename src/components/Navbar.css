@@ -8,6 +8,9 @@
     opacity: 0;
     animation: fadeIn 10s ease forwards;
 }
+.active{
+    background-color: #6a5d48;
+}
 
 .links a {
     color: #fff;
@@ -18,7 +21,7 @@
 }
 
 .links a:hover {
-    background-color: #6a5d48;
+    background-color: #5c4d2e;
 }
 
 /* Keyframe animation for fading in */
@@ -48,3 +51,4 @@
         text-align: center;
     }
 }
+
