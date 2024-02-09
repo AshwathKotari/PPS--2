@@ -10,8 +10,8 @@ export const Home = () => {
 
       
       < div className='styled-div'>
-        <p>Welcome!</p>
-        <p>I am Ashwath Kotari.</p>
+        <h1>Welcome!</h1>
+        <h2>I am Ashwath Kotari.</h2>
         <p>Web Developer.</p>
       </div>
 

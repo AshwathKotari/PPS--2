@@ -1,7 +1,10 @@
 .Home-css {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: end; */
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line if necessary */
-    justify-content: space-around;
+    
 }
 
 .styled-div {
@@ -9,11 +12,13 @@
     flex-direction: column;
     align-items: center; /* Center content horizontally */
     margin: auto;
+    height: 450px;
+    justify-content: center;
 
 }
 
 .circle-image {
-    padding: 40px;
+    padding: 50px;
     margin: auto;
     border-radius: 50%;
     width: 200px;

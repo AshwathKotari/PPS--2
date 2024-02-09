@@ -1,7 +1,13 @@
 .About-div{
-    justify-content: center;
-    text-align: center;
-    text-size-adjust: ;
+    /* justify-content: center; */
+    /* text-align: center; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   
+  
+   
   }
 
  /* About.css */
@@ -10,8 +16,9 @@
     opacity: 0; /* Initially hide the component */
     margin: 20px;
     padding: 20px;
+
     
-    animation: fadeIn 0.5s ease forwards; /* Apply fadeIn animation */
+    animation: fadeIn 0.5s ease forwards; 
   }
   
   @keyframes fadeIn {

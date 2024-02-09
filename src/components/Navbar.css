@@ -2,11 +2,14 @@
 .links {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
     list-style-type: none;
     padding: 20px;
     border-radius: 10px;
     opacity: 0;
     animation: fadeIn 10s ease forwards;
+    
 }
 .active{
     background-color: #6a5d48;
