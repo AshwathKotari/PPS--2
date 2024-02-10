@@ -4,19 +4,30 @@
     flex-wrap: wrap;
     justify-content: center;
     color: none;
+    align-items: center;
+    height: 500px;
+    justify-content: space-around;
   }
   
   .icon {
     font-size: 2.5rem; 
     margin: 20px; 
-    padding: 3px;
+    padding: 8px;
   }
   
   @media (max-width: 768px) {
     .icon {
-      font-size: 2rem; 
+      padding: 2px;
+      display: block;
+      justify-content: center;
+      align-items: center;
     }
+    .tech-stack{
+      height: 300px;
+    }
+
   }
+  
 
   /* Techstack.css */
 
@@ -27,9 +38,7 @@
   opacity: 0; /* Initially hide the component */
   margin: 20px;
   padding: 20px;
-  //background-color: #f8f9fa; /* Light gray background */
-  border-radius: 8px;
-  //box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ 
   animation: fadeIn 0.5s ease forwards; /* Apply fadeIn animation */
 }
 

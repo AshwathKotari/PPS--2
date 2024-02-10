@@ -31,16 +31,19 @@ const Project = () => {
   ];
 
   return (
-    <div className="project-list">
-      {projects.map((project, index) => (
-        <div key={index} className="project">
-          <h3>{project.title}</h3>
-          <img src={project.imageUrl} alt={project.title} />
-          <p>{project.description}</p>
-          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">View Live</a>
-        </div>
-      ))}
+    <div className='p-con'>
+          <div className="project-list">
+          
+          {projects.map((project, index) => (
+            <div key={index} className="project">
+              <h3>{project.title}</h3>
+              {/* <img src={project.imageUrl} alt={project.title} /> */}
+              <p>{project.description}</p>
+              <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">View Live</a>
+            </div>
+          ))}
+          </div>
     </div>
   );
 };

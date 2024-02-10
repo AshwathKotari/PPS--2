@@ -4,11 +4,17 @@
     flex-direction: column;
     justify-content: center;
     
+    
     list-style-type: none;
-    padding: 20px;
+    padding-right: 20px;
+    
     border-radius: 10px;
     opacity: 0;
     animation: fadeIn 10s ease forwards;
+    padding-left: 20px;
+    padding-top: 120px;
+    height: 300px;
+    text-shadow: 2px 2px 2px rgb(98, 189, 180);
     
 }
 .active{
@@ -42,16 +48,14 @@
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     .links {
+        display: flex;
         flex-direction: coloumn; /* Change direction to horizontal */
-        justify-content: space-around; /* Align items evenly */
-        padding: 10px; /* Reduce padding for smaller screens */
+        justify-content: start;
+        padding: 3px;
+        height: fit-content;
     }
 
-    .links a {
-        padding: 5px 10px; /* Adjust padding for smaller links */
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
+    
 }
+
 

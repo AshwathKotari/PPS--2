@@ -12,7 +12,7 @@ export const Navbar = () => {
             <NavLink to='/Softskills'>Softskills</NavLink>
             <NavLink to='/Techstack'>Techstack</NavLink>
             <NavLink to='/ProjectList'>Projectlist</NavLink>
-            <NavLink to='/Contact'>Contact</NavLink>
+            {/* <NavLink to='/Contact'>Contact</NavLink> */}
             
         </nav>
     </>

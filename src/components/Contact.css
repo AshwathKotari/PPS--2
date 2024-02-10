@@ -34,3 +34,8 @@
     background-color: #0056b3;
   }
   
+  @media and (max-width:768px) {
+    .contact-form{
+      paddingl;
+    }
+  }

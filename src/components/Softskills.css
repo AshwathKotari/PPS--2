@@ -1,18 +1,13 @@
-.Softskills-div{
-    justify-content: center;
-    text-align: center;
-    
-  }
-  
+
   /* Softskills.css */
 
 .Softskills-div {
     opacity: 0; /* Initially hide the component */
-    margin: 20px;
-    padding: 20px;
-    //background-color: #f8f9fa; /* Light gray background */
-    border-radius: 8px;
-    //box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-right: 100px;
+    padding-top: 130px;
+    padding-left: 525px;
+
+    
     animation: fadeIn 0.5s ease forwards; /* Apply fadeIn animation */
   }
   
@@ -28,7 +23,7 @@
   }
   
   .Softskills-div p {
-    margin: 10px 0;
+    margin: 20px ;
     opacity: 0; /* Initially hide each paragraph */
     animation: fadeInParagraph 0.5s ease forwards; /* Apply fadeInParagraph animation */
   }
@@ -75,3 +70,18 @@
   }
   /* Add animation delays for subsequent paragraphs as needed */
   
+
+
+  @media screen and (max-width: 768px) {
+    
+    .Softskills-div {
+      
+      padding-right: 10px;
+      padding-top: 13px;
+      padding-left: 52px;
+  
+      
+      
+    }
+    
+}
