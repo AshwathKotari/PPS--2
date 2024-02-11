@@ -127,9 +127,9 @@ body,h1,p,div{
       padding: 10px; /* Add padding for smaller screens */
       flex-direction: column;
   }
-  .routes{
+  /* .routes{
     height: fit-content;
-  }
+  } */
   .container{
     height: fit-content;
   }

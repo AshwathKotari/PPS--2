@@ -1,12 +1,16 @@
 .About-div{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 100px;
   
   
-  height: 700px;
+  /* height: 700px;
   padding-right: 100px;
   padding-top: 120px;
-  padding-left: 450px;
+  padding-left: 450px; */
   
   
    
@@ -92,7 +96,7 @@
       
       height: 70px;
       padding-right: 10px;
-      padding-top: 12px;
+      padding-top: 200px;
       padding-left: 45px;
     }
     
